@@ -18,7 +18,7 @@
 #include    "config.h"
 
 #ifndef COMPILER            /* No target compiler specified */
-#define COMPILER            COMPILER_UNKNOWN
+#define COMPILER            MSC
 #endif
 #ifndef HOST_COMPILER       /* No host compiler specified   */
 #define HOST_COMPILER       MSC

@@ -20,7 +20,7 @@
 
 /* Define target compiler.          */
 #ifndef COMPILER
-#define COMPILER            INDEPENDENT /* compiler-independent-build   */
+#define COMPILER            MSC /* compiler-independent-build   */
 #endif
 
 /* Define host operating-system.    */
@@ -31,13 +31,7 @@
 
 /* Version message.                 */
 /* "MCPP V.2.* (200y/mm) compiled by " precedes VERSION_MSG */
-#define VERSION_MSG         "GCC 3.4"
-#if     0
-    "LCC-Win32 2006-03"
-    "Visual C 2005"
-    "Visual C 2008"
-    "BCC V.5.5"
-#endif
+#define VERSION_MSG         "Visual C++ 2012"
 
 /*
  *      P A R T   1     Configurations for target-operating-system

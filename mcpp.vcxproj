@@ -80,9 +80,6 @@ vername -b $(TargetPath) r:\apps\bin</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="resource.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -92,7 +89,6 @@ vername -b $(TargetPath) r:\apps\bin</Command>
     <ClCompile Include="expand.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="mbchar.c" />
-    <ClCompile Include="preproc.c" />
     <ClCompile Include="support.c" />
     <ClCompile Include="system.c" />
   </ItemGroup>
