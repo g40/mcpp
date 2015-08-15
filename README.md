@@ -19,3 +19,5 @@ server.obj: R:/src/http/server/server.cpp R:/src/include/paths.h \
   R:/src/include/sha1v2.h R:/src/include/http/ws_bits.h \
   R:/src/include/http/http_ds.h
 ```
+
+This source code is BSD licensed. 
