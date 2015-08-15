@@ -1,5 +1,6 @@
 # mcpp
-VS2012 port of the mcpp C pre-processor (http://mcpp.sourceforge.net)
+
+Visual Studio 2012 port of the mcpp C and C++ pre-processor (http://mcpp.sourceforge.net)
 
 Used for gcc style dependency generation on Windows.
 
